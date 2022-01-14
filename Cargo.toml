@@ -8,6 +8,7 @@ edition = "2021"
 
 [dependencies]
 ethereum-types = { version = "0.12", default-features = false }
+ethnum = { git = "https://github.com/vorot93/ethnum-rs", branch = "staging", default-features = false }
 primitive-types = { version = "0.10", default-features = false, features = [
   "rlp",
 ] }
